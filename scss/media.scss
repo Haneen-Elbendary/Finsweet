@@ -1,0 +1,125 @@
+// desktop style
+@import "_vars.scss";
+//from small to large
+.second,
+.third {
+  padding: 3.125rem 0;
+}
+
+@media (max-width: 472px) {
+  .l-photo {
+    div h6,
+    div p,
+    div a {
+      font-size: xx-small !important;
+      line-height: 0.6rem !important;
+    }
+    div p {
+      margin-bottom: 0px !important;
+    }
+  }
+  .is-icon3::after {
+   margin-left: 5px;
+  }
+  .r-photo{
+    div h6,
+    div a {
+      font-size: xx-small !important;
+      line-height: 0.6rem !important;
+    }
+  }
+}
+@media (min-width: 576px) {
+  main {
+    min-height: 50vh;
+  }
+  .second,
+  .four {
+    padding: 3.125rem 0 !important;
+  }
+  .second {
+    min-height: 50vh;
+  }
+  .third {
+    min-height: 60vh;
+    padding: 3.125rem 0;
+  }
+}
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  h1 {
+    font-weight: $fw-semibo;
+    font-size: 3.375rem;
+    line-height: 4.625rem;
+  }
+  h2 {
+    font-weight: $fw-semibo;
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  h3 {
+    font-weight: $fw-semibo;
+    font-size: 2.375rem;
+    line-height: 3.625rem;
+  }
+  h4 {
+    font-weight: 500;
+    font-size: 2.25rem;
+    line-height: 3.5rem;
+  }
+  h5 {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  h6 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+  }
+
+  p {
+    font-weight: $fw-reg;
+    font-size: 1rem;
+    line-height: 1.75rem;
+  }
+  // utility classes
+  .text-size-large {
+    font-weight: $fw-reg;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+  }
+  .text-size-medium {
+    font-weight: $fw-reg;
+    font-size: 1.125rem;
+    line-height: 1.687rem;
+  }
+  .text-size-regular {
+    font-weight: $fw-reg;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .text-size-small {
+    font-weight: $fw-reg;
+    font-size: 0.875rem;
+    line-height: 1.312rem;
+  }
+  .text-size-tiny {
+    font-weight: $fw-reg;
+    font-size: 0.755rem;
+    line-height: 1.125rem;
+  }
+
+  .text-style-quote {
+    font-weight: $fw-reg;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+  }
+  main {
+    min-height: 70vh;
+  }
+  .second {
+    min-height: 80vh;
+    padding: 6.25rem 0 !important;
+  }
+}

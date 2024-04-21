@@ -1,0 +1,134 @@
+/********************************/
+// customize boots + add default style
+/********************************/
+/* color - typography -font sizes */
+/* var-font : family weight size-reg */
+/* body : family - size*/
+@import "_vars.scss";
+
+// overwite bootstrap color
+$primary: $main-color;
+$secondary: $sec-blue;
+$warning: $buttons-color;
+$light: $grey;
+$info: $button-trans-back;
+// nav bar
+$navbar-light-color: $nav-link-color-d;
+$navbar-light-hover-color: $buttons-color !important;
+$navbar-light-active-color: $white;
+// *********************************
+body {
+  font-family: $font-family;
+  font-weight: $fw-reg;
+  color: $white;
+}
+
+/* default style for tags :: mobile  */
+h1 {
+  font-weight: $fw-semibo;
+  font-size: 2.5rem;
+  line-height: 3.25rem;
+}
+h2 {
+  font-weight: $fw-semibo;
+  font-size: 2rem;
+  line-height: 2.8rem;
+}
+h3 {
+  font-weight: $fw-semibo;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+}
+h4 {
+  font-weight: $fw-reg;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+h5 {
+  font-weight: $fw-semibo;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+h6 {
+  font-weight: $fw-semibo;
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+/* utill classes */
+/* fonts */
+.text-size-large {
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+.text-size-medium {
+  font-size: 1.125rem;
+  line-height: 1.6875rem;
+}
+.text-size-regular {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.text-size-small {
+  font-size: 1.1428rem;
+  line-height: 1.31rem;
+}
+.text-size-tiny {
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+}
+.text-style-quote {
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+}
+
+/* buttons */
+.btn-outline-w {
+  border-color: $nav-link-color-d !important;
+}
+.is-icon {
+  position: relative;
+}
+.is-icon::after {
+  position: absolute;
+  content: url(../assets/images/Arrow\ 1.svg);
+  margin-left: 1rem;
+}
+.is-icon1 {
+  position: relative;
+}
+.is-icon1::after {
+  position: absolute;
+  content: url(../assets/images/Arrow\ 2.svg);
+  margin-left: 1rem;
+}
+.is-icon2 {
+  position: relative;
+}
+.is-icon2::after {
+  position: absolute;
+  content: url(../assets/images/Arrow\ 1\ -b.svg);
+  margin-left: 1rem;
+}
+.is-icon3 {
+  position: relative;
+}
+.is-icon3::after {
+  position: absolute;
+  content: url(../assets/images/Arrow\ 2yellow.svg);
+  margin-left: 1rem;
+}
+footer {
+  p i {
+    color: $white;
+  }
+  p i:hover {
+    border-color: $buttons-color !important;
+  }
+}
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
