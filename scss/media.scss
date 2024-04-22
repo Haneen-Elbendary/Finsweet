@@ -2,10 +2,15 @@
 @import "_vars.scss";
 //from small to large
 .second,
-.third {
+.third,
+.five {
   padding: 3.125rem 0;
 }
-
+@media (max-width:439px){
+  .carousel-control-prev {
+    left: 72% !important;
+  }
+}
 @media (max-width: 472px) {
   .l-photo {
     div h6,
@@ -19,9 +24,9 @@
     }
   }
   .is-icon3::after {
-   margin-left: 5px;
+    margin-left: 5px;
   }
-  .r-photo{
+  .r-photo {
     div h6,
     div a {
       font-size: xx-small !important;
@@ -34,7 +39,8 @@
     min-height: 50vh;
   }
   .second,
-  .four {
+  .four,
+  .five {
     padding: 3.125rem 0 !important;
   }
   .second {
@@ -43,6 +49,13 @@
   .third {
     min-height: 60vh;
     padding: 3.125rem 0;
+  }
+}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .pre-pos,
+  .nex-pos {
+    width: 40px;
   }
 }
 // Large devices (desktops, 992px and up)

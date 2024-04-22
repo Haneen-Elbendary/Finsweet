@@ -56,4 +56,23 @@ footer {
     color: $buttons-color;
   }
 }
-@import "custome-bs.scss";
+.five {
+  min-height: 50vh;
+}
+//carousel
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: calc(100% + 50px) !important;
+  z-index: 1;
+}
+.carousel-control-prev {
+  left: 74% !important;
+}
+.carousel {
+  min-height: 10vh;
+}
+.pre-pos,
+.nex-pos {
+  width: 30px;
+}
