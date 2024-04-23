@@ -18,12 +18,21 @@ $navbar-light-color: $nav-link-color-d;
 $navbar-light-hover-color: $buttons-color !important;
 $navbar-light-active-color: $white;
 // *********************************
+//accordiaon
+//do not use !important for edit default values
+//input
+$input-btn-padding-y: 0.7rem;
+
+// *******************************
 body {
   font-family: $font-family;
   font-weight: $fw-reg;
   color: $white;
 }
-
+*::placeholder {
+  color: $light !important;
+  opacity: 0.5 !important;
+}
 /* default style for tags :: mobile  */
 h1 {
   font-weight: $fw-semibo;
@@ -132,4 +141,5 @@ footer {
     border-color: $buttons-color !important;
   }
 }
+
 @import "../node_modules/bootstrap/scss/bootstrap.scss";

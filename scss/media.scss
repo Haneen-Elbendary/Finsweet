@@ -3,10 +3,11 @@
 //from small to large
 .second,
 .third,
-.five {
+.five,
+.fre-q,.form-1 {
   padding: 3.125rem 0;
 }
-@media (max-width:439px){
+@media (max-width: 439px) {
   .carousel-control-prev {
     left: 72% !important;
   }
@@ -40,8 +41,10 @@
   }
   .second,
   .four,
-  .five {
-    padding: 3.125rem 0 !important;
+  .five,
+  .fre-q,
+  .form-1 {
+    padding: 4rem 0 !important;
   }
   .second {
     min-height: 50vh;
