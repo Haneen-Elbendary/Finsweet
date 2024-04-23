@@ -36,7 +36,6 @@ footer {
 }
 
 .hola {
-  background-color: $sec-blue;
   height: fit-content;
   margin-bottom: 0;
   width: 168px;
@@ -56,13 +55,13 @@ footer {
   border-radius: 50%;
   opacity: 0.5;
 }
-.card-icon{
-    position: absolute;
-    z-index: 5;
-    top: 74%;
-    left: 30%;
-    display: none;
+.card-icon {
+  position: absolute;
+  z-index: 5;
+  top: 74%;
+  left: 30%;
+  display: none;
 }
-.hola:hover .card-icon{
-    display: block;
+.hola:hover .card-icon {
+  display: block;
 }
