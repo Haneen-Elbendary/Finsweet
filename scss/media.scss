@@ -4,7 +4,8 @@
 .second,
 .third,
 .five,
-.fre-q,.form-1 {
+.fre-q,
+.form-1 {
   padding: 3.125rem 0;
 }
 @media (max-width: 439px) {
@@ -59,6 +60,11 @@
   .pre-pos,
   .nex-pos {
     width: 40px;
+  }
+  .accordion {
+    .for-count::before {
+      font-size: 1.5rem;
+    }
   }
 }
 // Large devices (desktops, 992px and up)

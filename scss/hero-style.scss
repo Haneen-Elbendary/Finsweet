@@ -110,11 +110,19 @@ body {
   counter-reset: count;
 }
 .accordion {
-  h6::before {
+  .for-count{
+    position: relative;
+  }
+  .for-count::before {
     counter-increment: count;
     content: "0" counter(count);
     color: $sec-blue;
-    margin-right: 30px;
+    font-size: 1rem;
+    font-weight: $fw-semibo;
+    position: absolute;
+  top: 50%;
+transform: translateY(-51%);
+    // transform: translate(-50,-50);
   }
 }
 
