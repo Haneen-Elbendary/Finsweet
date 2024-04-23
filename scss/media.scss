@@ -55,6 +55,9 @@
     padding: 3.125rem 0;
   }
 }
+.about-card{
+  width: 95% !important;
+}
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
   .pre-pos,
@@ -65,6 +68,9 @@
     .for-count::before {
       font-size: 1.5rem;
     }
+  }
+  .about-card{
+    width: 48% !important;
   }
 }
 // Large devices (desktops, 992px and up)
@@ -143,5 +149,8 @@
   .second {
     min-height: 80vh;
     padding: 6.25rem 0 !important;
+  }
+  .about-card{
+    width: 23% !important;
   }
 }
