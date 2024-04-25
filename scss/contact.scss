@@ -1,0 +1,12 @@
+@import "_vars.scss";
+footer {
+  a:hover {
+    color: $sec-blue;
+  }
+  i {
+    color: $white;
+  }
+  i:hover {
+    color: $buttons-color;
+  }
+}
