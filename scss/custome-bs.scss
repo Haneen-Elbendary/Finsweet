@@ -14,6 +14,7 @@ $warning: $buttons-color;
 $light: $grey;
 $info: $button-trans-back;
 $success: $accent;
+$danger: $dark-blue;
 // nav bar
 $navbar-light-color: $nav-link-color-d;
 $navbar-light-hover-color: $buttons-color !important;
@@ -193,11 +194,11 @@ footer {
     border-color: $buttons-color !important;
   }
 }
-.price-btn{
+.price-btn {
   background-color: $dark-blue !important;
   color: $white !important;
 }
-.price-btn:hover{
+.price-btn:hover {
   background-color: $price-btn-hover !important;
 }
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
