@@ -8,6 +8,10 @@
 .form-1 {
   padding: 3.125rem 0;
 }
+
+.price-card{
+  width: 95% !important;
+}
 @media (max-width: 439px) {
   .carousel-control-prev {
     left: 72% !important;
@@ -69,7 +73,7 @@
       font-size: 1.5rem;
     }
   }
-  .about-card{
+  .about-card,.price-card{
     width: 48% !important;
   }
 }
@@ -152,5 +156,8 @@
   }
   .about-card{
     width: 23% !important;
+  }
+  .price-card{
+    width: 32% !important;
   }
 }

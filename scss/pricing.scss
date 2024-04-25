@@ -1,0 +1,24 @@
+@import "_vars.scss";
+.price-card {
+  i {
+    color: $arrow-right;
+  }
+}
+.price-wave {
+  background-color: $price-card-hover;
+}
+.img-price {
+  bottom: 0px;
+  left: 0;
+}
+footer {
+  a:hover {
+    color: $sec-blue;
+  }
+  i {
+    color: $white;
+  }
+  i:hover {
+    color: $buttons-color;
+  }
+}

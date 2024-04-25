@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fonts  : google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awsome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- icons google matrial icon cdn-->
+    <!-- menue icon  -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <!-- right arrow icon  -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <!-- css lib bootstrap -->
+    <link rel="stylesheet" href="css/custome-bs.min.css" />
+    <link rel="stylesheet" href="css/media.min.css" />
+    <link rel="stylesheet" href="css/pricing.min.css" />
+    <title>Finsweet</title>
+    <style></style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-primary">
+      <div class="container py-lg-2">
+        <a class="navbar-brand" href="#">
+          <img
+            class="img-fluid"
+            src="assets/images/Logo.svg"
+            alt="finsweet-logo"
+          />
+        </a>
+        <button
+          class="navbar-toggler rounded-1 py-1 px-2"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="material-symbols-outlined text-white fs-1"> menu </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link  fs-5"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item ms-lg-3">
+              <a class="nav-link fs-5" aria-current="page" href="about-us.html"
+                >About us</a
+              >
+            </li>
+            <li class="nav-item ms-lg-3">
+              <a class="nav-link fs-5" aria-current="page" href="#">Features</a>
+            </li>
+            <li class="nav-item ms-lg-3">
+              <a class="nav-link fs-5 active" aria-current="page" href="#">pricing</a>
+            </li>
+            <li class="nav-item ms-lg-3">
+              <a class="nav-link fs-5" aria-current="page" href="#">FAQ</a>
+            </li>
+            <li class="nav-item ms-lg-3">
+              <a class="nav-link fs-5" href="#">Blog</a>
+            </li>
+          </ul>
+          <button
+            type="button"
+            class="btn btn-lg btn-outline-w py-2 px-4 btn-outline-light d-none d-lg-block ms-4 rounded"
+          >
+            Contact us
+          </button>
+        </div>
+      </div>
+    </nav>
+    <div class="sec-one py-2 py-lg-5">
+      <div class="container">
+        <div class="text-center mb-5 mt-3 mt-md-5">
+          <h2>Our Pricing Plans</h2>
+          <p class="text-info">
+            When you’re ready to go beyond prototyping in Figma, Webflow is
+            <span class="d-inline d-md-block"></span>
+            ready to help you bring your designs to life — without coding them.
+          </p>
+        </div>
+        <div class="row justify-content-between pt-2 pt-md-3">
+          <div
+            class="price-card bg-light px-3 px-md-5 pt-3 pt-md-5 pb-4 d-inline-block mx-auto mx-md-0 mb-3 rounded-1"
+          >
+            <div class="d-flex align-items-center gap-1">
+              <h3>$299</h3>
+              <p class="text-secondary mt-2">Per Design</p>
+            </div>
+            <h6 class="text-primary mt-3">Landing Page</h6>
+            <p class="text-info fs-6 mb-5">
+              When you’re ready to go beyond prototyping in Figma,
+            </p>
+            <!-- <i class="fa-solid fa-play"></i> -->
+            <ul class="list-unstyled mb-3">
+              <li class="mb-3">
+                <i class="fa-solid fa-play me-2"></i> All limited links
+              </li>
+              <li class="mb-3">
+                <i class="fa-solid fa-play me-2"></i> Own analytics platform
+              </li>
+              <li class="mb-3">
+                <i class="fa-solid fa-play me-2"></i> Chat support
+              </li>
+              <li class="mb-3 text-info">
+                <i class="fa-solid fa-play me-2 text-info opacity-50"></i>
+                Optimize hashtags
+              </li>
+              <li class="mb-3 text-info">
+                <i class="fa-solid fa-play me-2 text-info opacity-50"></i>
+                Unlimited users
+              </li>
+            </ul>
+            <div class="d-flex justify-content-center mt-5">
+              <a class="price-btn btn w-100 px-5 py-3 rounded mb-3" href="#"
+                >Get started</a
+              >
+            </div>
+          </div>
+          <div
+            class="price-wave rounded-1 price-card px-3 px-md-5 pt-3 pt-md-5 pb-4 d-inline-block mx-auto mx-md-0 mb-3 position-relative"
+          >
+            <div class="d-flex align-items-center gap-1">
+              <h3 class="text-white">$399</h3>
+              <p class="text-warning mt-2">Multi Design</p>
+            </div>
+            <h6 class="text-white mt-3">Website Page</h6>
+            <p class="text-white opacity-75 fs-6 mb-5">
+              When you’re ready to go beyond prototyping in Figma,
+            </p>
+            <!-- <i class="fa-solid fa-play"></i> -->
+            <ul class="list-unstyled mb-3 text-white">
+              <li class="mb-3">
+                <i class="fa-solid fa-play me-2"></i> All limited links
+              </li>
+              <li class="mb-3">
+                <i class="fa-solid fa-play me-2"></i> Own analytics platform
+              </li>
+              <li class="mb-3">
+                <i class="fa-solid fa-play me-2"></i> Chat support
+              </li>
+              <li class="mb-3">
+                <i class="fa-solid fa-play me-2"></i>
+                Optimize hashtags
+              </li>
+              <li class="mb-3">
+                <i class="fa-solid fa-play me-2"></i>
+                Unlimited users
+              </li>
+            </ul>
+            <div class="d-flex justify-content-center mt-5">
+              <a
+                class="btn w-100 px-5 py-3 rounded btn-warning mb-3 z-2"
+                href="#"
+                >Get started</a
+              >
+            </div>
+            <img
+              class="img-fluid position-absolute img-price z-1"
+              src="assets/images/wave (1).svg"
+              alt="wave"
+            />
+          </div>
+          <div
+            class="rounded-1 price-card bg-light px-3 px-md-5 pt-3 pt-md-5 pb-4 d-inline-block mx-auto mx-md-0 mb-3"
+          >
+            <div class="d-flex align-items-center gap-1">
+              <h3>$499+</h3>
+              <p class="text-secondary mt-3 ms-2">Per Design</p>
+            </div>
+            <h6 class="text-primary mt-3">Complex Project</h6>
+            <p class="text-info fs-6 mb-5">
+              When you’re ready to go beyond prototyping in Figma,
+            </p>
+            <!-- <i class="fa-solid fa-play"></i> -->
+            <ul class="list-unstyled mb-3">
+              <li class="mb-3">
+                <i class="fa-solid fa-play me-2"></i> All limited links
+              </li>
+              <li class="mb-3">
+                <i class="fa-solid fa-play me-2"></i> Own analytics platform
+              </li>
+              <li class="mb-3">
+                <i class="fa-solid fa-play me-2"></i> Chat support
+              </li>
+              <li class="mb-3">
+                <i class="fa-solid fa-play me-2"></i>
+                Optimize hashtags
+              </li>
+              <li class="mb-3">
+                <i class="fa-solid fa-play me-2"></i>
+                Unlimited users
+              </li>
+            </ul>
+            <div class="d-flex justify-content-center mt-5">
+              <a class="price-btn btn w-100 px-5 py-3 rounded mb-3" href="#"
+                >Get started</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="fre-q">
+      <div class="container">
+        <div class="row justify-content-evenly align-items-center">
+          <div class="col-lg-4">
+            <h3>
+              Frequently <br />
+              asked questions
+            </h3>
+            <p class="text-secondary fs-5 mb-5">Contact us for more info</p>
+          </div>
+          <div class="col-lg-7">
+            <div class="accordion" id="accordionExample ">
+              <div class="accordion-item border-0 border-bottom-0">
+                <h2 class="accordion-header bg-white border-0">
+                  <button
+                    class="accordion-button rounded-0 p-3"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    <div
+                      class="row align-items-center w-100 justify-content-center gap-2"
+                    >
+                      <div class="col-1">
+                        <div class="for-count position-relative text-white">
+                          j
+                        </div>
+                      </div>
+                      <div class="col-10">
+                        <h6 class="mt-2">How much time does it take?</h6>
+                      </div>
+                    </div>
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body m-xl-auto">
+                    <div class="row gap-3">
+                      <div class="col-1"></div>
+                      <div class="col-10">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor incididunt ut labore et
+                          dolore magna aliqua.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item border-0">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed rounded-0 p-3 border-top"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    <div
+                      class="row align-items-center w-100 justify-content-center gap-2"
+                    >
+                      <div class="col-1">
+                        <div class="for-count position-relative text-white">
+                          j
+                        </div>
+                      </div>
+                      <div class="col-10">
+                        <h6 class="mt-2">
+                          What is your class naming convention?
+                        </h6>
+                      </div>
+                    </div>
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <div class="row gap-3">
+                      <div class="col-1"></div>
+                      <div class="col-10">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor incididunt ut labore et
+                          dolore magna aliqua.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item border-0 rounded-0">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed rounded-0 p-3 border-top"
+                    type="button "
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    <div
+                      class="row align-items-center w-100 justify-content-center gap-2"
+                    >
+                      <div class="col-1">
+                        <div class="for-count position-relative text-white">
+                          j
+                        </div>
+                      </div>
+                      <div class="col-10">
+                        <h6 class="mt-2">How do you communicate?</h6>
+                      </div>
+                    </div>
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <div class="row gap-3">
+                      <div class="col-1"></div>
+                      <div class="col-10">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor incididunt ut labore et
+                          dolore magna aliqua.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item border-0 rounded-0">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed rounded-0 p-3 border-top"
+                    type="button "
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    <div
+                      class="row align-items-center w-100 justify-content-center gap-2"
+                    >
+                      <div class="col-1">
+                        <div class="for-count position-relative text-white">
+                          j
+                        </div>
+                      </div>
+                      <div class="col-10">
+                        <h6 class="mt-2">
+                          I have a bigger project. Can you handle it?
+                        </h6>
+                      </div>
+                    </div>
+                  </button>
+                </h2>
+                <div
+                  id="collapseFour"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <div class="row gap-3">
+                      <div class="col-1"></div>
+                      <div class="col-10">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor incididunt ut labore et
+                          dolore magna aliqua.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item border-0 rounded-0">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed rounded-0 p-3 border-top"
+                    type="button "
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive"
+                    aria-expanded="false"
+                    aria-controls="collapseFive"
+                  >
+                    <div
+                      class="row align-items-center w-100 justify-content-center gap-2"
+                    >
+                      <div class="col-1">
+                        <div class="for-count position-relative text-white">
+                          j
+                        </div>
+                      </div>
+                      <div class="col-10">
+                        <h6 class="mt-2">
+                          I have a bigger project. Can you handle it?
+                        </h6>
+                      </div>
+                    </div>
+                  </button>
+                </h2>
+                <div
+                  id="collapseFive"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <div class="row gap-3">
+                      <div class="col-1"></div>
+                      <div class="col-10">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor incididunt ut labore et
+                          dolore magna aliqua.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#1c1e53"
+        fill-opacity="1"
+        d="M0,288L60,256C120,224,240,160,360,112C480,64,600,32,720,64C840,96,960,192,1080,202.7C1200,213,1320,139,1380,101.3L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+      ></path>
+    </svg>
+    <footer class="bg-primary pt-5">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-lg-4">
+            <img class="mb-3 mt-4" src="assets/images/Logo.svg" alt="logo" />
+            <p class="mb-3 text-light opacity-75">
+              We are always open to discuss your project and improve your online
+              presence.
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <h2 class="text-white mt-0 p-0">Lets Talk!</h2>
+            <p class="mb-2 text-light opacity-75">
+              We are always open to discuss your project, improve your online
+              presence and help with your UX/UI design challenges.
+            </p>
+            <p>
+              <i class="fa-brands fa-facebook $buttons-color me-3"></i>
+              <i class="fa-brands fa-twitter me-3"></i>
+              <i class="fa-brands fa-instagram me-3"></i>
+              <i class="fa-brands fa-linkedin me-3"></i>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="bg-warning">
+              <div class="row px-5 py-2">
+                <div class="col-11 col-lg-6">
+                  <p class="fw-semibold mb-0">Email me at</p>
+                  <p class="text-info mb-0">contact@website.com</p>
+                </div>
+                <div class="col-6">
+                  <p class="fw-semibold mb-0">Call us</p>
+                  <p class="text-info mb-0">0927 6277 28525</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid bg-white">
+        <div class="container">
+          <div class="row justify-content-between py-4">
+            <div class="col-md-4">
+              <p class="mb-0">Copyright 2022, Finsweet.com</p>
+            </div>
+            <div class="col-8">
+              <ul
+                class="text-black gap-4 justify-content-end mb-0 d-none d-md-flex"
+                style="list-style: none"
+              >
+                <li class="">
+                  <a href="index.html" class="text-decoration-none">Home</a>
+                </li>
+                <li class="">
+                  <a href="about-us.html" class="text-decoration-none"
+                    >About Us</a
+                  >
+                </li>
+                <li class="">
+                  <a href="#" class="text-decoration-none">Features</a>
+                </li>
+                <li class="">
+                  <a href="#" class="text-decoration-none">Pricing</a>
+                </li>
+                <li class="">
+                  <a href="#" class="text-decoration-none">FQA</a>
+                </li>
+                <li class="">
+                  <a href="#" class="text-decoration-none">Blog</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
