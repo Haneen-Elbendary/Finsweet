@@ -1,0 +1,21 @@
+@import "_vars.scss";
+footer {
+  a:hover {
+    color: $sec-blue;
+  }
+  i {
+    color: $white;
+  }
+  i:hover {
+    color: $buttons-color;
+  }
+}
+.case-li li {
+  transition: 0.3s;
+}
+.case-li {
+  li:hover {
+    color: $sec-blue;
+    font-weight: $fw-semibo;
+  }
+}
