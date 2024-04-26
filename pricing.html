@@ -80,14 +80,17 @@
               >
             </li>
             <li class="nav-item ms-lg-3">
-              <a class="nav-link fs-5" aria-current="page" href="#">FAQ</a>
+              <a class="nav-link fs-5" aria-current="page" href="privacy.html"
+                >FAQ</a
+              >
             </li>
             <li class="nav-item ms-lg-3">
-              <a class="nav-link fs-5" href="#">Blog</a>
+              <a class="nav-link fs-5" href="blog.html">Blog</a>
             </li>
           </ul>
           <button
             type="button"
+            onclick="location.href='contact.html';"
             class="btn btn-lg btn-outline-w py-2 px-4 btn-outline-light d-none d-lg-block ms-4 rounded"
           >
             Contact us
@@ -138,7 +141,11 @@
               </li>
             </ul>
             <div class="d-flex justify-content-center mt-5">
-              <a class="price-btn btn w-100 px-5 py-3 rounded mb-3" href="#"
+              <a
+                class="price-btn btn w-100 px-5 py-3 rounded mb-3"
+                href="#"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
                 >Get started</a
               >
             </div>
@@ -176,10 +183,55 @@
             </ul>
             <div class="d-flex justify-content-center mt-5">
               <a
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
                 class="btn w-100 px-5 py-3 rounded btn-warning mb-3 z-2"
                 href="#"
                 >Get started</a
               >
+              <!--  -->
+              <!-- Button trigger modal -->
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">
+                        Finsweet
+                      </h1>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      <p class="text-danger fs-5">You have to pay first</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-warning"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                      <button type="button" class="btn btn-primary">
+                        Save changes
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
             </div>
             <img
               class="img-fluid position-absolute img-price z-1"
@@ -219,8 +271,10 @@
               </li>
             </ul>
             <div class="d-flex justify-content-center mt-5">
-              <a class="price-btn btn w-100 px-5 py-3 rounded mb-3" href="#"
-                >Get started</a
+              <a
+                class="price-btn btn w-100 px-5 py-3 rounded mb-3"
+                href="contact.html"
+                >Contact us</a
               >
             </div>
           </div>
@@ -541,10 +595,10 @@
                   <a href="#" class="text-decoration-none">Pricing</a>
                 </li>
                 <li class="">
-                  <a href="#" class="text-decoration-none">FQA</a>
+                  <a href="privacy.html" class="text-decoration-none">FQA</a>
                 </li>
                 <li class="">
-                  <a href="#" class="text-decoration-none">Blog</a>
+                  <a href="blog.html" class="text-decoration-none">Blog</a>
                 </li>
               </ul>
             </div>

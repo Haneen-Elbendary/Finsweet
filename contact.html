@@ -90,10 +90,10 @@
               >
             </li>
             <li class="nav-item ms-lg-3">
-              <a class="nav-link fs-5" aria-current="page" href="#">FAQ</a>
+              <a class="nav-link fs-5" aria-current="page" href="privacy.html">FAQ</a>
             </li>
             <li class="nav-item ms-lg-3">
-              <a class="nav-link fs-5" href="#">Blog</a>
+              <a class="nav-link fs-5" href="blog.html">Blog</a>
             </li>
           </ul>
           <button
@@ -172,10 +172,33 @@
                 <textarea class="form-control rounded-1 id="exampleFormControlTextarea1" placeholder="Write your  question here" rows="3"></textarea>
               </div>
             <div>
-                <a class="price-btn btn btn-sm btn- object-fit-contain px-5 py-3 rounded mb-3" href="#"
+                <a class="price-btn btn btn-sm btn- object-fit-contain px-5 py-3 rounded mb-3"
+                data-bs-toggle="modal" data-bs-target="#exampleModal"
+                href="#"
                 >Send Messege</a
             </div>
-           
+           <!--  -->
+           <!-- Button trigger modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Finsweet</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+     <p class="text-danger fs-5" >  Message has been sent</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+           <!--  -->
             </div>
           </form>
         </div>
@@ -253,10 +276,10 @@
                   >
                 </li>
                 <li class="">
-                  <a href="#" class="text-decoration-none">FQA</a>
+                  <a href="privacy.html" class="text-decoration-none">FQA</a>
                 </li>
                 <li class="">
-                  <a href="#" class="text-decoration-none">Blog</a>
+                  <a href="blog.html" class="text-decoration-none">Blog</a>
                 </li>
               </ul>
             </div>

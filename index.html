@@ -72,17 +72,17 @@
               <a class="nav-link fs-5" aria-current="page" href="features.html">Features</a>
             </li>
             <li class="nav-item ms-lg-3">
-              <a class="nav-link fs-5" aria-current="page" href="#">pricing</a>
+              <a class="nav-link fs-5" aria-current="page" href="pricing.html">pricing</a>
             </li>
             <li class="nav-item ms-lg-3">
-              <a class="nav-link fs-5" aria-current="page" href="#">FAQ</a>
+              <a class="nav-link fs-5" aria-current="page" href="privacy.html">FAQ</a>
             </li>
             <li class="nav-item ms-lg-3">
-              <a class="nav-link fs-5" href="#">Blog</a>
+              <a class="nav-link fs-5" href="blog.html">Blog</a>
             </li>
           </ul>
           <button
-            type="button"
+            type="button" onclick="location.href='contact.html';"
             class="btn btn-lg btn-outline-w py-2 px-4 btn-outline-light d-none d-lg-block ms-4 rounded"
           >
             Contact us
@@ -101,10 +101,10 @@
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt.
             </p>
-            <a class="btn btn-md px-5 py-3 rounded btn-warning mb-3" href="#"
+            <a class="btn btn-md px-5 py-3 rounded btn-warning mb-3" href="work.html"
               >View our work</a
             >
-            <a class="btn btn-md px-5 py-3 text-white is-icon mb-3" href="#"
+            <a class="btn btn-md px-5 py-3 text-white is-icon mb-3" href="pricing.html"
               >View Pricing</a
             >
           </div>
@@ -130,7 +130,7 @@
             <!-- Get in touch with us -->
             <a
               class="text-secondary btn btn-md px-0 py-0 fw-semibold border-0 is-icon1 my-3"
-              href="#"
+              href="contact.html"
               >Get in touch with us</a
             >
           </div>
@@ -224,7 +224,7 @@
           <div class="col-lg-2">
             <a
               class="text-black btn btn-md px-0 py-0 fw-semibold border-0 is-icon2 my-3"
-              href="#"
+              href="work.html"
               >View More</a
             >
           </div>
@@ -243,7 +243,7 @@
                 </p>
                 <a
                   class="text-warning btn btn-md px-0 py-0 fw-semibold border-0 is-icon3 my-3"
-                  href="#"
+                  href="work.html"
                   >View More</a
                 >
               </div>
@@ -260,7 +260,7 @@
                 <h6 class="text-white">Unisaas Website Design</h6>
                 <a
                   class="text-warning btn btn-md px-0 py-0 fw-semibold border-0 is-icon3 my-3"
-                  href="#"
+                  href="work.html"
                   >View portfolio</a
                 >
               </div>
@@ -279,9 +279,13 @@
     <div class="four bg-light">
       <div class="container">
         <p class="fs-6 text-center">Features</p>
-        <h2 class="text-center w-50 mx-auto mb-5">
-          Design that solves problems, one product at a time
-        </h2>
+       <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <h2 class="text-center  mx-auto mb-5">
+            Design that solves problems, one product at a time
+          </h2>
+        </div>
+       </div>
         <div class="row justify-content-center ">
           <div class="col-11 col-lg-4">
             <div class="card border-0 bg-white rounded-0 px-3 py-4 ">
@@ -623,9 +627,31 @@
                bg-primary text-light border-light border-opacity-75  " id="exampleFormControlInput3" placeholder="Paste your Figma design URL">
             </div>
             <a class="btn btn-md px-5 py-3 rounded btn-warning mb-3 mt-4 d-block fw-semibold" href="#"
-              >Send an Inquiry</a
+            data-bs-toggle="modal" data-bs-target="#exampleModal" >Send an Inquiry</a
             >
-            <a class="btn btn-md px-5 py-3 text-white is-icon mb-0 d-block fw-semibold "  href="#"
+            <!--  -->
+            <!-- Modal -->
+            <div  class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Finsweet</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                <div class="row justify-content-center align-content-center">
+                  <p class="text-danger fs-4 text-center p-0 m-0">Data has been sent </p>
+                </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--  -->
+            <a class="btn btn-md px-5 py-3 text-white is-icon mb-0 d-block fw-semibold "  href="pricing.html"
             >View Pricing</a
           >
           </form>
@@ -647,7 +673,7 @@
                <p class="text-info">See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
                <a
                class="text-black btn btn-md px-0 py-0 fw-semibold border-0 is-icon2 my-1"
-               href="#"
+               href="blog.html"
                >View More</a
              >
               </div>
@@ -661,7 +687,7 @@
              <p class="text-info">See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
              <a
              class="text-black btn btn-md px-0 py-0 fw-semibold border-0 is-icon2 my-1"
-             href="#"
+             href="blog.html"
              >View More</a
            >
             </div>
@@ -674,7 +700,7 @@
              <p class="text-info">See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
              <a
              class="text-black btn btn-md px-0 py-0 fw-semibold border-0 is-icon2 my-1"
-             href="#"
+             href="blog.html"
              >View More</a
            >
             </div>
@@ -744,13 +770,13 @@
                   <a href="features.html" class="text-decoration-none">Features</a>
                 </li>
                 <li class="">
-                  <a href="#" class="text-decoration-none">Pricing</a>
+                  <a href="pricing.html" class="text-decoration-none">Pricing</a>
                 </li>
                 <li class="">
-                  <a href="#" class="text-decoration-none">FQA</a>
+                  <a href="privacy.html" class="text-decoration-none">FQA</a>
                 </li>
                 <li class="">
-                  <a href="#" class="text-decoration-none">Blog</a>
+                  <a href="blog.html" class="text-decoration-none">Blog</a>
                 </li>
               </ul>
             </div>
